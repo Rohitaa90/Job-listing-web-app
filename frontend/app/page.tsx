@@ -11,8 +11,9 @@ export default function Home() {
   const [selectedJob, setSelectedJob] = useState(null);
   const [loading, setLoading] = useState(true);
 
+
   // Use the environment variable, but ensure it doesn't have a trailing slash
-  const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL?.replace(/\/$/, '') || 'http://localhost:5000/api';
+  const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL?.replace(/\/$/, '');
 
   const fetchJobs = async (location = '') => {
     setLoading(true);
