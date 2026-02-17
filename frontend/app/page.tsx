@@ -13,12 +13,12 @@ export default function Home() {
 
 
   // Use the environment variable, but ensure it doesn't have a trailing slash
-  const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL?.replace(/\/$/, '');
+  const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL?.replace(/\/$/, '') || '';
 
   const fetchJobs = async (location = '') => {
     setLoading(true);
     try {
-      const response = await fetch(`${API_BASE_URL}/jobs?location=${location}`);
+      const response = await fetch(`${API_BASE_URL}/api/jobs?location=${location}`);
       if (!response.ok) throw new Error('Network response was not ok');
       const data = await response.json();
 
