@@ -11,10 +11,6 @@ export default function Navbar() {
                         </div>
                         <span className="text-xl font-black text-slate-900 tracking-tight">Mployee.me</span>
                     </div>
-                    <div className="hidden md:block">
-                        <span className="text-xs font-bold text-slate-400 uppercase tracking-widest bg-slate-100 px-3 py-1 rounded-full">
-                            Full Stack Assignment
-                        </span>
                     </div>
                 </div>
             </div>
