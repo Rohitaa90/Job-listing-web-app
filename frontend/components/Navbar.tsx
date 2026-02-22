@@ -11,7 +11,6 @@ export default function Navbar() {
                         </div>
                         <span className="text-xl font-black text-slate-900 tracking-tight">Mployee.me</span>
                     </div>
-                    </div>
                 </div>
             </div>
         </nav>
