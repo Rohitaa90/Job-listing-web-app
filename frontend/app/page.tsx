@@ -64,7 +64,7 @@ export default function Home() {
       </main>
 
       <footer className="py-6 border-t border-slate-200 bg-white text-center text-slate-400 text-xs font-bold uppercase tracking-widest">
-        &copy; 2026 Mployee.me • Built for Technical Assessment
+        &copy; 2026 Job Listing Platform
       </footer>
     </div>
   );
