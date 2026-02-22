@@ -5,7 +5,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Mployee.me | Premium Job Portal",
+  title: "Job Listing Platform",
   description: "Find your dream job with our advanced job listing platform.",
 };
 
